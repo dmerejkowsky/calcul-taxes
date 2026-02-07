@@ -18,7 +18,6 @@ public class LigneParser {
         var exempté = isExempté(dénomination);
         var importé = dénomination.contains("importé");
 
-
         var produit = new Produit(dénomination, prix, exempté, importé);
         return new Ligne(quantité, produit);
     }
