@@ -1,5 +1,16 @@
 # Kata - Calcul de taxes
 
+## Livrable
+
+L'application a été compilée avec le plugin `assembly`  de maven et le jar est disponible
+en téléchargement ici : [calcul-taxes-1.0-jar-with-dependencies.jar](https://github.com/dmerejkowsky/calcul-taxes/releases/download/calcul-taxes-1.0/calcul-taxes-1.0-jar-with-dependencies.jar)
+
+Pour la lancer, vous pouvez télécharger le fichier d'example `input.txt` et lancer la coammnde suivante:
+
+```
+java -jar calcul-taxes-1.0-jar-with-dependencies.jar input.txt
+```
+
 ## Spécifications
 
 Une taxe sur la valeur ajoutée de 10% est appliquée sur chaque produit, à l'exception des
